@@ -39,7 +39,7 @@ const createGQLArgs = (
       nameQuery = nameQuery.slice(0, indexOfBracket);
     }
 
-    argsGQL.body.operationName = nameQuery ? nameQuery : 'null';
+    argsGQL.body.operationName = nameQuery ? nameQuery : null;
     argsGQL.body.query = prettyQuery;
 
     return 'Done';
