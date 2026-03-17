@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prepare": "npx husky install",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "prettier-fix": "prettier . --write",
